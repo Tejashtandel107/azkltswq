@@ -1,0 +1,87 @@
+.twitter-typeahead {
+    width: 100%;
+    vertical-align: middle;
+}
+.twitter-typeahead input {
+    width: 100%;
+}
+.twitter-typeahead .tt-menu {
+    color: #000;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.tt-menu .item {
+    display: table;
+    width: 100%;
+    /*display: block;*/
+    cursor: pointer;
+    font-size: 14px;
+    height: 52px;
+    padding: 5px 8px 5px 8px;
+}
+.tt-menu .item .logo{
+    display: table-cell;
+    width: 50px;
+    /*float: left;*/
+    vertical-align: middle;
+    text-align: center;
+}
+.tt-menu .item .logo img{
+    max-width: 42px;
+    max-height: 42px;
+    vertical-align: middle;
+}
+.tt-menu .item .name {
+    display: table-cell;
+    text-align: left;
+    /*float: left;*/
+    /*line-height: 52px;*/
+    vertical-align: middle;
+}
+.tt-menu .item .name div{
+    vertical-align: middle;
+    text-align: left;
+    padding-right: 5px;
+    /*max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;*/
+}
+.tt-menu .item .customer {
+    display: table-cell;
+    text-align: right;
+    /*float: left;*/
+    /*line-height: 52px;*/
+    vertical-align: middle;
+}
+.tt-menu .item .customer div{
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 5px;
+    /*max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;*/
+}
+.tt-menu .item .domain {
+    display: table-cell;
+    text-align: right;
+    /*float: right;*/
+    vertical-align: middle;
+    width:170px;
+}
+.tt-hint {
+    color: #999;
+    display: none !important;
+}
+.tt-input{
+    background-color: #FFF !important;
+}
+.tt-suggestion.tt-cursor {
+    background-color: #f0f0f0;
+}

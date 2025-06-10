@@ -1,0 +1,110 @@
+.border-right{
+	border-right: 1px solid;
+}
+.border-left{
+	border-left: 1px solid;
+}
+.border-bottom{
+	border-bottom: 1px solid;
+}
+.border-top{
+	border-top: 1px solid;
+}
+.header-bg{
+    background-color: #c0bdbd;
+}
+.print-margin-top{
+    margin-top: 20px;
+}
+@media print {
+    body * {visibility: hidden;}
+    #printbox, #printbox * {
+        visibility: visible;
+    }
+    #printbox {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    @page {margin:6.5mm 6mm 0mm 7mm;}
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto !important;
+        font-size: 13.5px !important;
+        color: #000 !important;
+        background-color: white !important;
+    }
+    .content-wrapper{
+        min-height: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    body .page-wrapper .header, body nav, body .content-wrapper .page-heading *  { 
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        height: 0px;
+    }
+    .ibox .ibox-body{
+        padding: 0px 0px;
+    }
+    .noprint {
+        display: none !important;
+        height: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .title-vakkal{
+        width: 90px;
+    }
+    .title-item-marka{
+        width: 150px;
+    }
+    .title-details{
+        width: 50px;
+    }
+    .title-balance-qty{
+        width: 50px;
+    }
+    .title-amount{
+        width: 60px;
+    }
+    .print-padding{
+        padding: 1px !important;
+    } 
+    .print-p-b-0{
+        padding-bottom: 0px !important;
+    }
+    .font-weight-bold{
+        font-weight: 600;
+    }
+    .pagebreak {
+        float: none;
+        page-break-before: always;
+        page-break-inside: avoid;
+    }  
+    .print-margin-top {
+        margin-top: 0px !important;
+    }
+    .item-font-size{
+        font-size: 10px !important;
+    }	
+     .print-title{
+        font-size: 16px !important;
+    }
+    .print-remark{
+        font-size: 12px !important;
+    }
+    .notes {
+        font-size: 10px !important;
+    }
+    .onprint { display: flex !important; }         
+    .header-bg {
+        background-color: #c0bdbd !important;
+        -webkit-print-color-adjust: exact !important; 
+    }    
+    * { overflow: visible !important; }
+}

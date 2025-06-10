@@ -1,0 +1,40 @@
+.display-group {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    position: relative;
+}
+.display-group:nth-child(even) {
+    background-color: #E8E8E8;
+}
+.display-group:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+.addlist .view {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+.addlist .view:nth-child(even) {
+    background-color: #E8E8E8;
+}
+.addlist .view:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+.highlight {
+    background-color : "#ddedea";
+}
+.custom-class{
+    top: -18px;
+    right: -18px;
+    position: absolute;
+    font-size: 36px;
+}
+@media (max-width: 1300px) {
+    .flexwrap {
+        flex-wrap: wrap;
+    }
+    .display-group .w-10 {
+        width: auto !important;
+    }
+}

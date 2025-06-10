@@ -1,0 +1,28 @@
+.ibox-info{
+	width: 70%;
+}
+.user-profile{
+	margin-left: 3rem; 
+	margin-right: 3rem; 
+}
+@media (max-width: 1080px){
+	.user-profile{
+		margin-left: 1rem; 
+		margin-right: 1rem; 
+	}
+}
+@media (max-width: 850px){
+	.profile-img{
+		width: 80px !important;
+		height: 80px !important;
+	}
+	.user-profile{
+		margin-left: 0rem; 
+		margin-right: 10px; 
+	}
+}
+@media (max-width: 490px){
+	.flexwrap{
+		flex-wrap: wrap;
+	}
+}
